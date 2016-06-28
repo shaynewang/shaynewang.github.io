@@ -13,7 +13,7 @@ Anyhow, I’ve worked out a solution for you, that is an installer. Just follow 
 
 It also stores your VPN password automatically if you choose to do so, that way you don’t have to retype your password when you select a different region.
 
-**PIA Fedora project git**
+[**PIA Fedora project git**](https://github.com/shaynewang/piafedora)
 
 Here is how to run the installer:
 
