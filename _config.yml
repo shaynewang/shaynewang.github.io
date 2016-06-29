@@ -9,7 +9,7 @@
 title: Shayne Wang
 email: shaynexwang@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-url: "http://shaynewang.com" # the base hostname & protocol for your site
+url: "shaynewang.com" # the base hostname & protocol for your site
 
 baseurl: ''
 permalink: /:title/
