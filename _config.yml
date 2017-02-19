@@ -36,3 +36,6 @@ compress_html:
   blanklines: false
   profile: false
   startings: []
+
+#Github Jekyll theme
+theme: Minimal
