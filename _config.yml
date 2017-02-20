@@ -8,34 +8,13 @@
 # Site settings
 title: Shayne Wang
 email: shaynexwang@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-url: "shaynewang.com" # the base hostname & protocol for your site
-
-baseurl: ''
-permalink: /:title/
+description: Software developer, Data wrangler, and Photographer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://shaynewang.com" # the base hostname & protocol for your site
 twitter_username: shaynexwang
-github_username: shaynewang
-# Color schemes
-color-1: '#3B97D3'
-color-2: '#26B99A'
+github_username: shaynewang 
+paginate: 5
 
-
+gems: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
-
-sass:
-    style: compressed
-
-#compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
-
-#Github Jekyll theme
-theme: minima

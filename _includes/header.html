@@ -1,15 +1,19 @@
-<header class="site-header">
 
+<div class="wrapper">
+  <center> <a href="/index.html"><div class="site-title">   {{site.title}} </div></a></center>
+</div>
+<div class="wrapper site-description">
+<center>  {{site.description}} </center>
+</div>
+<div class="wrapper">
+  <div class="trigger site-navigation">
+    <a class="page-link" href="{{site.url}}{{site.baseurl}}">HOME</a>
 
-    <nav class="site-nav">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-    </nav>
-    <div></div>
+    {% for sitePage in site.pages %}
+    {% if sitePage.title %}
 
-<svg xmlns="http://www.w3.org/2000/svg" width="1206" height="11" viewBox="0 0 1206 11" class="thunder"><rect x="752.9" y="3.5" width="150" height="4" fill="#3B97D3"/><rect x="152.9" y="3.5" width="150" height="4" fill="#35495E"/><rect x="302.9" y="3.5" width="150" height="4" fill="#E57E25"/><rect x="452.9" y="3.5" width="150" height="4" fill="#4FBA6F"/><rect x="602.9" y="3.5" width="150" height="4" fill="#F0C419"/><rect x="2.9" y="3.5" width="150" height="4" fill="#E64C3C"/><rect x="902.9" y="3.5" width="150" height="4" fill="#26B99A"/><rect x="1052.9" y="3.5" width="150" height="4" fill="#955BA5"/></svg>
-
-</header>
+    <span class="exclamationMark">/</span><a class="page-link" href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

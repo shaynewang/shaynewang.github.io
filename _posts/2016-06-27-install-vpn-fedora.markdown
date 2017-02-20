@@ -2,7 +2,7 @@
 layout: post
 title:  "Setting up PrivateInternetAccess VPN client on Fedora Linux"
 date:   2016-06-27 22:25:44 -0700
-categories: VPN linux shell 
+categories: code
 ---
 
 Linux is great because it works on any computer for free of charge. But some times it’s really inconvenient to get certain softwares installed or to get something to work. 

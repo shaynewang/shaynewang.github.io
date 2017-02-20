@@ -1,17 +1,20 @@
-
 <footer class="site-footer">
 
   <div class="wrapper">
 
+    <h2 class="footer-heading small-site-title">{{ site.title }}</h2>
+
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <ul class="contact-list footer-content">
+          <li>Powered By <a href="http://github.com/hemangsk/Gravity">Gravity</a></li>
+          <li>Made with <i class="fa fa-heart"></i> on <a href="http://jekyllrb.com"><span style="color:black">{ { Jekyll } }</a></span></li>
+
+
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2">
+      <div class="footer-col footer-col-2 footer-content">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>
@@ -27,13 +30,11 @@
         </ul>
       </div>
 
-
+      <div class="footer-col footer-col-3 site-description">
+        <p>{{ site.description }}</p>
+      </div>
     </div>
 
   </div>
 
 </footer>
-<div class="footer">
-<svg xmlns="http://www.w3.org/2000/svg" width="1206" height="11" viewBox="0 0 1206 11" class="thunder"><rect x="752.9" y="3.5" width="150" height="4" fill="#3B97D3"/><rect x="152.9" y="3.5" width="150" height="4" fill="#35495E"/><rect x="302.9" y="3.5" width="150" height="4" fill="#E57E25"/><rect x="452.9" y="3.5" width="150" height="4" fill="#4FBA6F"/><rect x="602.9" y="3.5" width="150" height="4" fill="#F0C419"/><rect x="2.9" y="3.5" width="150" height="4" fill="#E64C3C"/><rect x="902.9" y="3.5" width="150" height="4" fill="#26B99A"/><rect x="1052.9" y="3.5" width="150" height="4" fill="#955BA5"/></svg>
-</div>
-{% if site.analytics %}{% include analytics.html %}{% endif %}
