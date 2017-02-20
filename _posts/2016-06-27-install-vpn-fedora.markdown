@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting up PrivateInternetAccess VPN client on Fedora Linux"
-date:   2016-06-27 22:25:44 -0700
+date:   2016-06-27 22:25:44
 categories: code
 ---
 

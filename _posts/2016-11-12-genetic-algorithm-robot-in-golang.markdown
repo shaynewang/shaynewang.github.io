@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Genetic Algorithm Implementatin - Robby: the soda can collector in golang"
-date:   2016-11-12 16:57:44 -0700
+date:   2016-11-12 16:57:44
 categories: code 
 ---
 
