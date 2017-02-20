@@ -2,6 +2,7 @@
 layout: page
 title : Who Am I?
 permalink: /whoami/
+tagline: ""
 ---
 I’m a Pacificnorthwesternese(A Chinese lives in the PNW btw), which pretty much determines that I love mountains and the wilderness. Sometimes I think about when Skynet controls the world, I’d be living in a cabin in a remote mountain area hacking the Skynet to save civilization and hunting deer for food.
 
