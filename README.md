@@ -8,3 +8,4 @@ Run
 python newpost.py $CATEGORY $TITLE
 ```
 to create new post template
+Categories: photography, code
