@@ -10,7 +10,7 @@ title: Shayne Wang
 email: shaynexwang@gmail.com
 description: Software developer, Data wrangler, and Photographer
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://shaynewang.com" # the base hostname & protocol for your site
+url: "https://shaynewang.com" # the base hostname & protocol for your site
 twitter_username: shaynexwang
 github_username: shaynewang 
 paginate: 3
