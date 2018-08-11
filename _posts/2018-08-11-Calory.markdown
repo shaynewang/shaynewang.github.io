@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Calory" 
+date:  2018-08-11 15:07:52
+categories: code
+---
+
+An app which detects food items in an image, and display calories informations.
+This is a work in progress:
+[Try it!](https://xin-wang-208505.appspot.com)
